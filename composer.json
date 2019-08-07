@@ -1,0 +1,30 @@
+{
+    "name": "nickdekruijk/cookie-consent",
+    "description": "A simple cookie accept popup for EU laws",
+    "license": "MIT",
+	"keywords": [ "cookies", "cookiewall", "concent", "gdpr", "laravel"],
+    "homepage": "https://www.nickdekruijk.nl/packages/cookie-consent",
+    "authors": [
+        {
+            "name": "Nick de Kruijk",
+            "email": "git@nickdekruijk.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "^5.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NickDeKruijk\\CookieConsent\\CookieConsentServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "NickDeKruijk\\CookieConsent\\": "src/"
+        }
+    }
+}
