@@ -28,4 +28,20 @@ return [
     */
     'cookie_expires' => 365,
 
+    /*
+    |--------------------------------------------------------------------------
+    | cookie_secure
+    |--------------------------------------------------------------------------
+    | The cookie 'cookie_name' should last this amount of days
+    */
+    'cookie_secure' => false,
+
+    /*
+    |--------------------------------------------------------------------------
+    | cookie_secure
+    |--------------------------------------------------------------------------
+    | The cookie 'cookie_name' should last this amount of days
+    */
+    'cookie_httponly' => true,
+
 ];
