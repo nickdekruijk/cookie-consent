@@ -35,3 +35,6 @@ And style the popup as you like, for example:
 .cookieconsent-button-accept {background-color:#fff;color:red}
 .cookieconsent-button-accept:hover {background-color:rgba(255,255,255,0.8)}
 ```
+
+## Changing text/localization
+To change te tekst/buttons/info link copy the files from https://github.com/nickdekruijk/cookie-consent/tree/master/src/translations to /resources/lang/vendor/cookieconsent/ file and edit where needed.
