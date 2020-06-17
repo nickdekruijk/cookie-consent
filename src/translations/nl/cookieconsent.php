@@ -16,5 +16,6 @@ return [
     'explain' => 'Uw ervaring op deze site wordt verbeterd door het gebruik van cookies.',
     'accept' => 'Sta cookies toe',
     'moreinfo' => 'Meer informatie',
+    'moreinfo_link' => '/cookieverklaring',
 
 ];

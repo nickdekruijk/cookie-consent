@@ -5,5 +5,6 @@
     </div>
     <a href="{{ route('cookieconsent', 'deny') }}" class="cookieconsent-close"></a>
     <a href="{{ route('cookieconsent', 'accept') }}" class="cookieconsent-button cookieconsent-button-accept">@lang('cookieconsent::cookieconsent.accept')</a>
+    <a href="@lang('cookieconsent::cookieconsent.moreinfo_link')" class="cookieconsent-button cookieconsent-button-moreinfo">@lang('cookieconsent::cookieconsent.moreinfo')</a>
 </div>
 @endif

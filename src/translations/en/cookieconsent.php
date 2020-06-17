@@ -16,5 +16,6 @@ return [
     'explain' => 'Your experience on this site is being improved with cookies.',
     'accept' => 'Accept Cookies',
     'moreinfo' => 'More information',
+    'moreinfo_link' => '/cookiestatement',
 
 ];
