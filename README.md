@@ -29,6 +29,7 @@ And wrap any code that places tracking cookies/pixels/code with the `cookieConse
 And style the popup as you like, for example:
 ```css
 .cookieconsent-container {position:fixed;bottom:0;left:0;right:0;background-color:red;text-align:center;padding:50px;z-index:9999;color:#fff}
+.cookieconsent-close {position:absolute;top:0;right:0;color:red;font-size:50px;padding:10px;line-height:.7;font-weight:bold;display:block}
 .cookieconsent-button {display:inline-block;padding:10px 20px;border:2px solid #fff;border-radius:5px;text-decoration:none;color:inherit;margin:10px}
 .cookieconsent-button:hover {background-color:rgba(255,255,255,0.5)}
 .cookieconsent-button-accept {background-color:#fff;color:red}
