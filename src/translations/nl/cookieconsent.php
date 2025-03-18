@@ -15,7 +15,11 @@ return [
 
     'explain' => 'Uw ervaring op deze site wordt verbeterd door het gebruik van cookies.',
     'accept' => 'Sta cookies toe',
+    'accept_aria' => 'Sta cookies toe',
+    'close' => '&times;',
+    'close_aria' => 'Sluiten en cookies niet accepteren',
     'moreinfo' => 'Meer informatie',
+    'moreinfo_aria' => 'Meer informatie over onze cookies',
     'moreinfo_link' => '/cookieverklaring',
 
 ];
