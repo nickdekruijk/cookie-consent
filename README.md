@@ -1,18 +1,15 @@
 # Cookie Consent for Laravel
-According to EU laws visitors should opt-in for all tracking cookies/pixels/code. This package adds a simple 'Accept Cookies' popup to your Laravel Application.
+According to EU laws visitors should opt-in for all non essential cookies. This package adds a simple 'Accept Cookies' popup to your Laravel Application.
 
 ## Installation
 To install package use
-`composer require nickdekruijk/cookie-consent`
-
-Publish the config file in case you want to customize it
-```bash
-php artisan vendor:publish --provider=NickDeKruijk\\CookieConsent\\CookieConsentServiceProvider
+```
+composer require nickdekruijk/cookie-consent
 ```
 
-For Laravel version lower then 5.5 add the Service Provider to the `'providers'` array in `config/app.php`
-```php
-NickDeKruijk\CookieConsent\CookieConsentServiceProvider::class,
+Publish the config file in case you want to customize it
+```
+php artisan vendor:publish --provider=NickDeKruijk\\CookieConsent\\CookieConsentServiceProvider
 ```
 
 ## Frontend
