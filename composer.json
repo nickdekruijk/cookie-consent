@@ -3,7 +3,6 @@
     "description": "A simple cookie accept popup for EU laws",
     "license": "MIT",
 	"keywords": [ "cookies", "cookiewall", "cookie", "consent", "gdpr", "laravel"],
-    "homepage": "https://www.nickdekruijk.nl/packages/cookie-consent",
     "authors": [
         {
             "name": "Nick de Kruijk",
